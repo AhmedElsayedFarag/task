@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "AiishAii",
+        "description": "Ecommerce project",
+        "contact": {
+            "email": "ahmedhamada2555@gmail.com.com"
+        },
+        "version": "v1"
+    },
+    "servers": [
+        {
+            "url": "http://159.223.224.43/api",
+            "description": "*** API Server"
+        }
+    ],
+    "paths": {
+        "/": {
+            "get": {
+                "description": "Home page",
+                "responses": {
+                    "default": {
+                        "description": "Welcome page"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "description": "API token is required to access this API",
+                "in": "header",
+                "scheme": "bearer"
+            }
+        }
+    }
+}

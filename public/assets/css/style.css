@@ -1,0 +1,5 @@
+.horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo, .main-menu .navbar-header .navbar-brand .brand-logo {
+    background: url('../../../img/footer-logo.png') no-repeat;
+    height: 63px;
+    width: 145px;
+}
